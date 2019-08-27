@@ -27,5 +27,6 @@
        </div>
      @endforeach
   </div>
+    {{$muebles->links()}}
   </section>
 @endsection
