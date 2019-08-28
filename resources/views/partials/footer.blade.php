@@ -1,13 +1,13 @@
 <footer>
   <div class="card-footer text-muted">
 
-  <a href="https://www.facebook.com" class="icono">
+  <a href="https://www.facebook.com" class="icono" style=color:grey>
     <i class="fab fa-facebook-square"></i>
   </a>
-  <a href="https://www.instagram.com" class="icono">
+  <a href="https://www.instagram.com" class="icono" style=color:grey>
     <i class="fab fa-instagram"></i>
   </a>
-  <a href="https://www.pinterest.com" class="icono">
+  <a href="https://www.pinterest.com" class="icono" style=color:grey>
     <i class="fab fa-pinterest"></i>
   </a>
 

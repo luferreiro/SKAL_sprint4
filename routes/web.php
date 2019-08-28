@@ -55,4 +55,9 @@ Route::get('cart/add/{id}', "CartController@add")->name('cart.add')->middleware(
 Route::get('cart/remove/{id}', "CartController@remove")->name('cart.remove')->middleware('auth');
 //Muestro los productos del carrito
 Route::get('/cart', 'CartController@show')->name('cart')->middleware('auth');
+
+Route::get('/confirmar_compra', 'CartController@confirmar')->name('cart')->middleware('auth');
+
+Route::post('/confirmar_compra', 'CartController@finalizar')->name('cart')->middleware('auth');
+
 Auth::routes();

@@ -56,7 +56,7 @@ return [
         'string' => 'The :attribute must be greater than or equal :value characters.',
         'array' => 'The :attribute must have :value items or more.',
     ],
-    'image' => 'The :attribute must be an image.',
+    'image' => 'El archivo debe ser extension jpg / png / jpeg.',
     'in' => 'The selected :attribute is invalid.',
     'in_array' => 'The :attribute field does not exist in :other.',
     'integer' => 'The :attribute must be an integer.',
@@ -79,7 +79,7 @@ return [
     'max' => [
         'numeric' => 'El campo :attribute no puede ser mayor que :max.',
         'file' => 'The :attribute may not be greater than :max kilobytes.',
-        'string' => 'The :attribute may not be greater than :max characters.',
+        'string' => 'El :attribute no puede tener mas de :max caracteres.',
         'array' => 'The :attribute may not have more than :max items.',
     ],
     'mimes' => 'The :attribute must be a file of type: :values.',
@@ -113,7 +113,7 @@ return [
     'string' => 'El campo :attribute debe ser de tipo texto.',
     'timezone' => 'The :attribute must be a valid zone.',
     'unique' => 'El campo :attribute ya fue utilizado.',
-    'uploaded' => 'The :attribute failed to upload.',
+    'uploaded' => 'El :attribute falló, debe usar otra imagen.',
     'url' => 'The :attribute format is invalid.',
     'uuid' => 'The :attribute must be a valid UUID.',
 

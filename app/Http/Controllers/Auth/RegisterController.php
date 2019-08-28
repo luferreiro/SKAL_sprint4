@@ -53,7 +53,7 @@ class RegisterController extends Controller
             'apellido' => ['required', 'string', 'max:45'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
-            'avatar' => ['file'],
+            'avatar' => ['image'],
         ]);
     }
 

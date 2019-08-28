@@ -20,8 +20,8 @@
              </p>
            </div>
            <div class="card-footer">
-             <div><a class="fas fa-shopping-cart" style=color:orange href="{{route('cart.add', ['id' => $mueble->id])}}"></a></div>
-             </div>
+             <div style="display:flex;justify-content:space-between;"><a class="fas fa-shopping-cart" style=color:orange href="{{route('cart.add', ['id' => $mueble->id])}}"></a><span style="text-align: right;">EN STOCK</span></div>
+            </div>
 
          </div>
        </div>

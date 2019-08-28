@@ -40,3 +40,19 @@ border-radius: 2px;
 .carousel-item.imagen3 {
   background-image: url('../img/carrousel3.jpg');
 }
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: orange;
+    border-color: orange;
+}
+
+.page-link {
+  color: gray;
+}
+
+.material-icons {
+  padding-top: 30%;
+  padding-left: 35%;
+}
