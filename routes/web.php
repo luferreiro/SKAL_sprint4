@@ -60,4 +60,6 @@ Route::get('/confirmar_compra', 'CartController@confirmar')->name('cart')->middl
 
 Route::post('/confirmar_compra', 'CartController@finalizar')->name('cart')->middleware('auth');
 
+Route::get('/sistema_venta', 'VentaController@ventas');
+
 Auth::routes();

@@ -12,7 +12,7 @@
   </a>
 
   <br>
-  <p>2019 Powered by Trio </p>
+  <p>2019 Powered by Skål™ </p>
   </div>
   </footer>
 
